@@ -1,0 +1,9 @@
+appdirs==1.4.4
+certifi==2020.4.5.1
+future==0.18.2
+packaging==20.4
+pyparsing==2.4.7
+python-telegram-bot==12.7
+six==1.15.0
+urllib3==1.25.9
+emoji==0.5.4

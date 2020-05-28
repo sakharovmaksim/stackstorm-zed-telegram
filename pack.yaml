@@ -1,0 +1,12 @@
+---
+name : telegram-zed
+description : Telegram Messaging integration for ZED
+keywords:
+  - telegram
+  - messaging
+  - zed
+version: 0.1.0
+python_versions:
+  - "3"
+author : Sakharov Maxim
+email : saharov.maksim@yandex.ru
