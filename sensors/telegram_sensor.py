@@ -8,7 +8,7 @@ class TelegramSensor(PollingSensor):
                                              config=config,
                                              poll_interval=poll_interval)
         self._trigger_name = 'new_update'
-        self._trigger_pack = 'telegram'
+        self._trigger_pack = 'telegramzed'
         self._trigger_ref = '.'.join([self._trigger_pack, self._trigger_name])
 
     def setup(self):
