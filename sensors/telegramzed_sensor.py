@@ -2,9 +2,9 @@ import telegram
 from st2reactor.sensor.base import PollingSensor
 
 
-class TelegramSensor(PollingSensor):
+class TelegramzedSensor(PollingSensor):
     def __init__(self, sensor_service, config, poll_interval):
-        super(TelegramSensor, self).__init__(sensor_service=sensor_service,
+        super(TelegramzedSensor, self).__init__(sensor_service=sensor_service,
                                              config=config,
                                              poll_interval=poll_interval)
         self._trigger_name = 'new_update'
