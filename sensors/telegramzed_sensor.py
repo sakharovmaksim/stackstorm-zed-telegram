@@ -5,9 +5,9 @@ from st2reactor.sensor.base import PollingSensor
 class TelegramzedSensor(PollingSensor):
     def __init__(self, sensor_service, config, poll_interval):
         super(TelegramzedSensor, self).__init__(sensor_service=sensor_service,
-                                             config=config,
-                                             poll_interval=poll_interval)
-        self._trigger_name = 'new_update'
+                                                config=config,
+                                                poll_interval=poll_interval)
+        self._trigger_name = 'zed_update'
         self._trigger_pack = 'telegramzed'
         self._trigger_ref = '.'.join([self._trigger_pack, self._trigger_name])
 

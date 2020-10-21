@@ -1,11 +1,11 @@
 ---
   class_name: "TelegramzedSensor"
   entry_point: "telegramzed_sensor.py"
-  description: "Sensor which monitors telegram updates"
+  description: "Sensor which monitors telegramzed updates"
   poll_interval: 5
   trigger_types:
     -
-      name: "new_update"
+      name: "zed_update"
       description: "Trigger which indicates that a new update has been detected"
       payload_schema:
         type: "object"
